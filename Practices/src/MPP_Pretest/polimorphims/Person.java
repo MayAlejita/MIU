@@ -1,4 +1,4 @@
-package MPP_Pretest;
+package MPP_Pretest.polimorphims;
 
 public abstract class Person {
     private String name;

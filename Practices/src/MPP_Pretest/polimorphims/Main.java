@@ -1,4 +1,4 @@
-package MPP_Pretest;
+package MPP_Pretest.polimorphims;
 
 public class Main {
     public static void main(String[] args) {

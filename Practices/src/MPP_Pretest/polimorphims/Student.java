@@ -17,8 +17,8 @@ public class Student extends Person{
         this.grade = grade;
     }
 
-    @Override
-    public String getNamePerson(){
-        return "This student is:" + getName();
-    }
+//    @Override
+//    public String getNamePerson(){
+//        return "This student is:" + getName();
+//    }
 }

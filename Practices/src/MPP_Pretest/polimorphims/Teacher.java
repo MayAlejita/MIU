@@ -17,8 +17,8 @@ public class Teacher extends Person{
         this.school = school;
     }
 
-    @Override
-    public String getNamePerson(){
-        return "This teacher is:" + getName();
-    }
+//    @Override
+//    public String getNamePerson(){
+//        return "This teacher is:" + getName();
+//    }
 }

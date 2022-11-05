@@ -1,6 +1,6 @@
 package MPP_Pretest.polimorphims;
 
-public abstract class Person {
+public class Person {
     private String name;
     private String lastname;
     private int age;
@@ -11,7 +11,7 @@ public abstract class Person {
         this.age = age;
     }
 
-    public abstract String getNamePerson();
+    //public abstract String getNamePerson();
 
     public String getName() {
         return name;
@@ -45,4 +45,12 @@ public abstract class Person {
         return "This person with age" + age + " was born in the year " + year + "and month " + month ;
     }
 
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", lastname='" + lastname + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }

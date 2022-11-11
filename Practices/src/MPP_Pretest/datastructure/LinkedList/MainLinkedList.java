@@ -9,8 +9,8 @@ public class MainLinkedList {
         linkedList = linkedList.insert(linkedList, "D");
         linkedList = linkedList.insert(linkedList, "E");
         linkedList = linkedList.insert(linkedList, "F");
-        linkedList = linkedList.insert(linkedList, "G");
-//        printList(linkedList);
+        linkedList = linkedList.insert(linkedList, "Mayra");
+        printList(linkedList);
 
 //        linkedList = linkedList.deleteByKey(linkedList, "Y");
 //        printList(linkedList);

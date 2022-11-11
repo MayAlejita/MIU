@@ -9,6 +9,7 @@ public class MyStringStack {
 	public void push(String s) {
 		//implement
 		Node node = new Node();
+		node.value = s;
 		if(top != null){
 			node.next = top;
 		}

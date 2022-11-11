@@ -6,15 +6,30 @@ public class Prob1 {
 		//use recursion to populate the HashMap h with 
 		//the frequency of each string in the input list
 
-		for(int i=0; i< input.size(); i++){
-			if(h.containsKey(input.get(i))){
-				int a = h.get(input.get(i));
-				h.put(input.get(i), ++a);
-			}
-			else{
-				h.put(input.get(i), 1);
-			}
+		if(input.size() == 0) {
+			return;
 		}
+
+		String value = input.remove(input.size() - 1);
+		if(h.containsKey(value)){
+			int a = h.get(value);
+			h.put(value, ++a);
+		}
+		else{
+			h.put(value, 1);
+		}
+
+		frequencies(input);
+
+//		for(int i=0; i< input.size(); i++){
+//			if(h.containsKey(input.get(i))){
+//				int a = h.get(input.get(i));
+//				h.put(input.get(i), ++a);
+//			}
+//			else{
+//				h.put(input.get(i), 1);
+//			}
+//		}
 
 	}
 	

@@ -94,14 +94,27 @@ public class LinkedList {
     public boolean findElement(LinkedList list, String key){
         Node currNode = list.head;
 
-        while(currNode != null){
-            if(currNode.data.equals(key)){
-                System.out.println("element found");
-                return true;
-            }
-            currNode = currNode.next;
+        return find(currNode, key);
+//        while(currNode != null){
+//            if(currNode.data.equals(key)){
+//                System.out.println("element found");
+//                return true;
+//            }
+//            currNode = currNode.next;
+//        }
+//        return false;
+    }
+
+    private boolean find(Node currNode, String key) {
+        if(currNode.data.equals(key)){
+            return true;
         }
-        return false;
+        if(currNode.next != null){
+            return find(currNode.next, key);
+        }
+        else{
+            return false;
+        }
     }
 }
 

@@ -10,19 +10,19 @@ public class MainLinkedList {
         linkedList = linkedList.insert(linkedList, "E");
         linkedList = linkedList.insert(linkedList, "F");
         linkedList = linkedList.insert(linkedList, "G");
-        printList(linkedList);
+//        printList(linkedList);
 
-        linkedList = linkedList.deleteByKey(linkedList, "Y");
-        printList(linkedList);
-
-        linkedList = linkedList.deleteByKey(linkedList, "A");
-        printList(linkedList);
-
-        linkedList = linkedList.deleteAtPosition(linkedList, 4);
-        printList(linkedList);
-
-        linkedList = linkedList.deleteAtPosition(linkedList, 10);
-        printList(linkedList);
+//        linkedList = linkedList.deleteByKey(linkedList, "Y");
+//        printList(linkedList);
+//
+//        linkedList = linkedList.deleteByKey(linkedList, "A");
+//        printList(linkedList);
+//
+//        linkedList = linkedList.deleteAtPosition(linkedList, 4);
+//        printList(linkedList);
+//
+//        linkedList = linkedList.deleteAtPosition(linkedList, 10);
+//        printList(linkedList);
 
         boolean resultFind = linkedList.findElement(linkedList, "D");
         System.out.println(resultFind);

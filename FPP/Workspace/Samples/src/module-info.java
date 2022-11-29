@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author mayrapullupaxi
- *
- */
-module Samples {
-}

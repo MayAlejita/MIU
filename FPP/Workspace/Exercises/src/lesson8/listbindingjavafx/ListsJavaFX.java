@@ -4,26 +4,26 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import javafx.application.Application;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
-import javafx.geometry.Insets;
-import javafx.geometry.Pos;
-import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.ListView;
-import javafx.scene.control.PasswordField;
-import javafx.scene.control.TextField;
-import javafx.scene.layout.GridPane;
-import javafx.scene.layout.HBox;
-import javafx.scene.paint.Color;
-import javafx.scene.text.Font;
-import javafx.scene.text.FontWeight;
-import javafx.scene.text.Text;
-import javafx.stage.Stage;
+//import javafx.application.Application;
+//import javafx.collections.FXCollections;
+//import javafx.collections.ObservableList;
+//import javafx.event.ActionEvent;
+//import javafx.event.EventHandler;
+//import javafx.geometry.Insets;
+//import javafx.geometry.Pos;
+//import javafx.scene.Scene;
+//import javafx.scene.control.Button;
+//import javafx.scene.control.Label;
+//import javafx.scene.control.ListView;
+//import javafx.scene.control.PasswordField;
+//import javafx.scene.control.TextField;
+//import javafx.scene.layout.GridPane;
+//import javafx.scene.layout.HBox;
+//import javafx.scene.paint.Color;
+//import javafx.scene.text.Font;
+//import javafx.scene.text.FontWeight;
+//import javafx.scene.text.Text;
+//import javafx.stage.Stage;
 
 /**
  * Illustrates how JavaFX supports two-way binding
@@ -32,7 +32,7 @@ import javafx.stage.Stage;
  * @author pcorazza
  *
  */
-public class ListsJavaFX extends Application {
+public class ListsJavaFX { /*extends Application {
 
     public static void main(String[] args) {
         launch(args);
@@ -147,5 +147,5 @@ public class ListsJavaFX extends Application {
     	list.setPrefWidth(50);
     	list.setPrefHeight(70);
     	return list;
-    }
+    }*/
 }

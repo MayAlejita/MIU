@@ -26,7 +26,7 @@ public class Main {
 		listOfList.addAll(list2);
 		listOfList.addAll(list3);
 		
-		System.out.println(listOfList);
+		System.out.println("List of List -----> " + listOfList);
 		
 		//Step 3: Sort the combined list using a Comparator. Declare that
 		//listA comes before listB if the 0th element of A precedes the 0th
@@ -48,7 +48,9 @@ public class Main {
 //		Collections.sort(all, new ListComparator());
 //		
 //		
-//		Collections.sort(all, (l1, l2) -> );
+		Collections.sort(listOfList, (l1, l2) -> l1.compareTo(l2));
+		
+		System.out.println("------>" + listOfList);
 
 	}
 

@@ -1,4 +1,4 @@
-package sample;
+package prog3extracredit.sampleCode.src.sample;
 
 public class Convert {
 

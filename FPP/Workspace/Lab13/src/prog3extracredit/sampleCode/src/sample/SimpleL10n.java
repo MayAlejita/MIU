@@ -1,4 +1,4 @@
-package sample;
+package prog3extracredit.sampleCode.src.sample;
 
 import java.awt.Component;
 import java.awt.EventQueue;
